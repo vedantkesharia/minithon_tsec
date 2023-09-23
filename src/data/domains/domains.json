@@ -1,0 +1,23 @@
+[
+    {
+        "title" : "ROBOTIC HAND",
+        "subtitle" : "#1 - 10% OFF",
+        "content" : "Our robotic hand can be used in factories to do you heavy lifting...",
+        "color" : "#FF5733",
+        "img":"robot_part1-removebg-preview.png"
+    },
+    {
+        "title" : "GRIPPER",
+        "subtitle" : "#2 - 8% OFF",
+        "content" : "Our gripper used for various purposest.",
+        "color" : "#FF1744",
+        "img":"img-1-removebg-preview.png"
+    },
+    {
+        "title" : "LITHIUM IONS",
+        "subtitle" : "#3 - 10% OFF",
+        "content" : "Cell provides multiple use cases.",
+        "color" : "#9C27B0",
+        "img":"img-3-removebg-preview (2).png"
+    }
+]

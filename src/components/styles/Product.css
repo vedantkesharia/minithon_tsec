@@ -1,0 +1,240 @@
+.work-experience {
+    color: black;
+    width: 100%;
+    padding: 0 0 0 60px;
+    margin-top: 30px;
+    overflow: hidden;
+    margin-bottom: 60px;
+  }
+  
+  .mywork-title {
+    margin-bottom: 30px;
+  }
+  
+  .mywork-title h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .experience-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mywork-title h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color:rgb(88, 201, 95) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .experience {
+    overflow: hidden;
+    min-width: 300px;
+    background: rgb(88, 201, 95);
+    border-top-left-radius: 10px;
+    border: 1px solid rgb(255 255 255 / 0.1);
+    border-top-right-radius: 10px;
+  }
+  
+  .experience-img {
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  
+  .experience-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .work-img {
+    height: 100%;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    transform: scale(1);
+  }
+  
+  .experience:hover .work-img {
+    transform: scale(1.06);
+  }
+  
+  .date-posted {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+  }
+  
+  .work-details {
+    padding: 0px 20px 20px 20px;
+    position: relative;
+    font-weight: 800;
+  }
+  
+  .work-details h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: white;
+    max-height: 100px;
+    font-weight: 700;
+  }
+  
+  .work-details p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.7rem;
+    white-space: normal;
+    font-family:  'Caprasimo', cursive;
+    font-family: 'Lugrasimo', cursive;
+  }
+  
+  .admin {
+    font-family:  'Caprasimo', cursive;
+    font-family: 'Lugrasimo', cursive;
+  }
+  
+  .who-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:pink;
+  }
+  
+  .who-post p {
+    margin: 0;
+    margin-left: 5px;
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 12px;
+  }
+  
+  .work-info {
+    font-size: 12px;
+  }
+  
+  .experience .learnmore {
+    height: 30px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .learnmore:hover {
+    background: yellow;
+    color: var(--black);
+  }
+  
+  .experience:hover {
+    border-bottom: 4px solid yellow;
+  }
+  
+  /* .light .experience {
+    background: var(--card-background);
+    box-shadow: var(--card-box-shadow);
+  } */
+  
+  @media only screen and (max-width: 768px) {
+    .experience {
+      width: 250px;
+    }
+  
+    .work-experience.mywork-title h3 {
+      font-size: 2rem;
+      
+    }
+  
+    .work-togather-text {
+      padding-bottom: 20px;
+    }
+  
+    .sec-btn {
+      font-size: 13px;
+    }
+  
+    .work-togather-form {
+      padding-left: 0px;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .mywork-title {
+      text-align: center;
+    }
+  
+    .mywork-title h3 {
+      font-size: 1.3rem;
+    }
+  
+    .work-experience {
+      padding: 0 0 0 20px;
+    }
+  
+    .experience {
+      margin: 0 0 0 18px;
+    }
+  
+    .work-img {
+      padding: 10px;
+    }
+  
+    .work-details {
+      padding: 0 10px 10px 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 360px) {
+    .experience {
+      padding: 10px;
+      min-width: 280px;
+    }
+  
+    .work-experience {
+      padding-left: 20px;
+    }
+  }
+  
+  .light .work-details h2 {
+    color: black;
+    font-family:  'Caprasimo', cursive;
+    font-family: 'Lugrasimo', cursive;
+  }
+  
+  .light .who-post p {
+    color: black;
+  }
+  
+  .light .experience .learnmore {
+    background: black;
+    color:white;
+  }
+  
+  .light .experience .learnmore:hover {
+    background: black;
+    color:yellow;
+  }

@@ -1,0 +1,37 @@
+[
+    {
+        "align": "left",
+        "title": "ROBOTIC ARMS",
+        "subtitle":"10 pieces of 'Robotic Arms' delivered successfully at your address" ,
+        "date": "07",
+        "month": "MAR"
+    },
+    {
+        "align": "right",
+        "title": "GRIPPER",
+        "subtitle": "12 pieces of 'Gripper' delivered successfully at your address",
+        "date": "10",
+        "month": "APR"
+    },
+    {
+        "align": "left",
+        "title": "Battery",
+        "subtitle": "15 pieces of 'Lithium Ion' delivered successfully at your address",  
+        "date": "10",
+        "month": "APR"
+    },
+    {
+        "align": "right",
+        "title": "Mother board",
+        "subtitle": "5 pieces of 'Lithium Ion' delivered successfully at your address",
+        "date": "13",
+        "month": "APR"
+    },
+    {
+        "align": "left",
+        "title": "Battery",
+        "subtitle": "11 pieces of 'Lithium Ion' delivered successfully at your address",  
+        "date": "15",
+        "month": "APR"
+    }
+]

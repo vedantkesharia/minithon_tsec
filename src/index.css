@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+:root {
+  --font-color-primary: #cfcfcf;
+  --font-color-secondary: #fff;
+  --background-color: #000;
+  --foreground-color-rgb: 26, 26, 29;
+  --foreground-color-secondary: #cfcfcf;
+  --border-accent-color-primary: 255, 108, 0;
+  --border-color-rgb: 255, 255, 255;
+  --hover-color-primary: #f4f4f4;
+  --blur-strength: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--background-color);
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Inertia";
+  src: url("./data/assets/Inertia_PersonalUse.otf") format("opentype");
+}
+section {
+  width: 100vw;
+  color: var(--font-color-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 2.5px;
+}
+
+::-webkit-scrollbar-track {
+  backdrop-filter: blur(15px) saturate(200%);
+  -webkit-backdrop-filter: blur(15px) saturate(200%);
+  background-color: rgba(var(--foreground-color-rgb), 0.75);
+  border-bottom: 1px solid rgba(var(--border-color-rgb), 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cfcfcf30;
+}
+
+#root {
+  overflow: hidden;
+}
+
+#not-built {
+  height: 100vh;
+}
+
+#home {
+  height: 100vh;
+  transform: translateY(-25px);
+}
+
+#about {
+  height: auto;
+  margin: 8vh 0vh;
+}
+
+#domains {
+  height: auto;
+  margin: 12.5vh 0vh;
+}
+
+#prizes {
+  height: auto;
+  margin: 12.5vh 0vh;
+}
+
+#timeline {
+  height: auto;
+  margin: 12.5vh 0vh;
+}
+
+#sponsors {
+  height: auto;
+  margin: 8vh 0vh;
+}
+
+#faq {
+  height: auto;
+  margin: 8vh 0vh;
+  margin-bottom: 20vh;
+}
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+  
+}
+.skill-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.skill h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.skill p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
